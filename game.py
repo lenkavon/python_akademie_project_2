@@ -7,7 +7,7 @@ def game():
     else:
         print("Game over!")
 
-    input("Chcete hrat znovu? y/n")
+    print("Chcete hrat znovu? y/n")
     if input() == "y":
         return game()
     else:
@@ -15,4 +15,4 @@ def game():
     
 
 if __name__ == "__main__":
-    cows_and_bulls()
+    game()

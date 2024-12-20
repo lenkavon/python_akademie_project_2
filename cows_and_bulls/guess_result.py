@@ -34,7 +34,7 @@ def guess_result(number, figures, attempts, repeat_digits):
         f"Tip: {guess_int} -> {'Cow' if cows == 1 else 'Cows'}: {cows} {'Bull' if bulls == 1 else 'Bulls' }: {bulls}, Zbyva pokusu: {attempts - 1}"
     )
     if bulls == figures:
-        print(f"Gratulujeme, uhodli jste cislo! v {10 - attempts}. pokusu")
+        print(f"Gratulujeme, uhodli jste cislo! v {11 - attempts}. pokusu")
         return 10 - attempts
     else:
         return guess_result(number, figures, attempts - 1, repeat_digits)

@@ -6,10 +6,13 @@ author: Lenka Urban
 email: lenka.vondr@gmail.com
 ```
 
-spusteni: `./cows_and_bulls/main.py`
+spusteni: `./game.py`
 
 - hra umoznuje zvolit 3-7 ciferne cislo, defaultne se spusti s 4 ciframi, take je mozne nastavit opakovani cifer. 
-- testy jsou generovane pomoci chatgpt, chtela jsem si vyzkouset setup test suite. 
+- testy jsou generovane pomoci chatgpt, chtela jsem si vyzkouset setup test suite.
+- cely projekt je hodne kosaty - chtela jsem si zkusit tvoreni balicku, lokalni importy. strukturu jsem delala podle https://docs.python-guide.org/ nevim, jestli je to takhle v poradku - bezne pouzivane, vim ze jsou nekteri programatori schopni se porvat do krve, protoze se jim nelibi urcity typ struktury..."
+- taky jsem chtela zkusit ukladat statistiky do firebase, ale nechce se mi resit ukladani seceret nebo prihlasovani, takze zatim koukam po alternative, ale asi to jen zapisu do nejakeho lokalniho souboru, ale to se mi zatim moc nechce :D 
+- naduzivam rekurzi, v praxi si ji moc neuziju, slo by to udelat do while, ale rekurze je rekurze... (co ma v pythonu lepsi performance?)
 
 
 

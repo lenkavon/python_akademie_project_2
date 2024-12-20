@@ -16,6 +16,9 @@ def validate_guess(guess, figures, repeat_digits=False):
     if len(guess) != figures:
         print(f"Hadane cislo musi mit {figures} cifer.")
         return False
+    if guess[0] == "0":
+        print("Hadane cislo nesmi zacinat nulou.")
+        return False
     return True
 
 
