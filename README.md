@@ -1,4 +1,21 @@
-# Bulls & Cows
+# Hlavicka
+```txt
+projekt_2.py: druhý projekt do Engeto Online Python Akademie
+
+author: Lenka Urban
+email: lenka.vondr@gmail.com
+```
+
+spusteni: `./cows_and_bulls/main.py`
+
+- hra umoznuje zvolit 3-7 ciferne cislo, defaultne se spusti s 4 ciframi, take je mozne nastavit opakovani cifer. 
+- testy jsou generovane pomoci chatgpt, chtela jsem si vyzkouset setup test suite. 
+
+
+
+# Zadani: 
+
+## Bulls & Cows
 Tvým úkolem bude vytvořit program, který by simuloval hru Bulls and Cows. Po vypsání úvodního textu uživateli, může hádání tajného čtyřciferného čísla začít.
 
 ### Program musí splňovat tyto požadavky:

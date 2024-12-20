@@ -15,7 +15,7 @@ def generate_number(figures=4, repeat_digits=False):
 
     if repeat_digits:
         start = 10 ** (figures - 1)
-        end = 10**figures - 1
+        end = 10 ** figures - 1
         return randint(start, end)
     else:
         return int("".join(sample("0123456789", figures)))

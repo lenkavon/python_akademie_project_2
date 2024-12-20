@@ -1,5 +1,6 @@
 import unittest
-from cows_and_bulls import generate_number
+from context import cows_and_bulls
+from cows_and_bulls.generate_number import generate_number
 
 
 class TestGenerateNumber(unittest.TestCase):

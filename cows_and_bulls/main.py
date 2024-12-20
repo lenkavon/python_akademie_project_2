@@ -1,5 +1,5 @@
-from generate_number import generate_number
-from guess_result import guess_result
+from .generate_number import generate_number
+from .guess_result import guess_result
 
 
 def cows_and_bulls():
@@ -20,12 +20,13 @@ def cows_and_bulls():
         repeat_digits = False
     else:
         figures = int(input("Zadejte pocet cifer (3-7):"))
-        input("Chcete povolit opakovani cifer y/n?")
-        repeat_digits = True if input() == "y" else False
+        repeat_response = input("Chcete povolit opakovani cifer y/n?")
+        repeat_digits = True if repeat_response == "y" else False
 
     number = generate_number(figures=figures, repeat_digits=repeat_digits)
 
-    guess_result(number, figures, 10, repeat_digits)
+    attempts = guess_result(number, figures, 10, repeat_digits)
+    return attempts
 
 
 if __name__ == "__main__":
